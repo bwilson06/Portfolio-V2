@@ -215,11 +215,13 @@ input.text{
 }
 
 .img-fluid {
-    max-width: 50%;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 26px;
     height: auto;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin: 0 auto;
+    
     
   }
 
@@ -264,3 +266,11 @@ input.text{
     margin-bottom: 20px;
     background-color: grey;
 }
+
+.portfolio-header{
+    color: #4aaaa5;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
