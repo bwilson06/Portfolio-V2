@@ -1,0 +1,233 @@
+* body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/herringbone.png");
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.customnavbar{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.logo{
+    
+    background-color: #4aaaaf;
+    color: white;
+}
+
+.navbar-brand{
+background-color: #4aaaaf;
+height: 60px; 
+font-size: 16px; 
+font-family: 'Times';
+display: flex;
+align-items: center;
+letter-spacing: 5px;
+font-weight: bolder;
+text-transform: uppercase;
+justify-content: space-evenly;
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+.navbar{
+width: 100%;
+position: relative;
+top: 0;
+margin: 0;
+padding: 0;
+border: 0;
+background-color: white;
+min-height: 60px;
+}
+
+.navbar-nav > li{
+    margin-left:25px;
+    color:gray;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Geogria';
+    font-size: 16px;
+  }
+
+.contentbox{
+    align-self: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    width: 960px;
+    min-height: 550px;
+    border: 4px;
+    border-color: #dddddd;
+}
+
+.aboutme{
+    font-size: 18px;
+    line-height: 2;
+    margin: 38px;
+    color: #777777;
+    font-weight: bold;
+    font-family: 'sans-serif';
+}
+
+.contentheader{
+    font-weight: bold;
+    font-family: 'Times';
+    margin-left: 38px;
+    margin-top: 25px;
+    padding: 0;
+    font-size: 30px;
+    color: #4aaaa5;
+
+}
+
+img.one{
+    float: left;
+    margin-right: 38px;
+    margin-bottom: 38px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 8px solid;
+    border-top-color: #4aaaaf;
+    color: white;
+    background-color: #666666;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.footerone{
+        
+        bottom: 0;
+        background-color: #4aaaa5;
+        width: 100%;
+        height: 8px;
+}
+       
+
+.contact{
+    margin-top: 30px;
+    margin-left: 38px;
+    font-size: 20px;
+    font-family: 'Arial';
+    font-weight: bolder;
+    color: #777777;
+}
+
+.message {
+    resize:none;
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 100%;
+    height: 200px;
+}
+
+.submit{
+    display: flex;
+    margin-left: 38px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: bold;
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+    
+}
+
+.contactbox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 600px;
+    border: 4px;
+    border-color: #dddddd;
+}
+
+.portfoliobox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: auto;
+    border: 4px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-color: #dddddd;
+}
+
+.portfolioimagesone{
+    display: flex;
+    margin-left:10px;
+    width:250px;
+    height: 200px;
+}
+
+.portfolioimagestwo{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 38px;
+    width:250px;
+    height: 200px;
+}
+
+.container_p{
+    display: flex;
+    justify-items: auto;
+
+    
+}
+
+.portfolioimagesthree{
+    display: flex;
+    margin-left:38px;
+    width:884px;
+    height: 600px;
+    justify-items: auto;
+
+}
+
+input.text{
+    margin-left: 38px;
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+  }
+
+.contactone{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-size: 20px;
+    font-family: 'Arial';
+    font-weight: bolder;
+    color: #777777;
+}
