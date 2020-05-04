@@ -159,12 +159,13 @@ img.one{
 
 .contactbox{
     align-self: center;
-    margin: auto;
+    margin: 0 auto;
     background-color: #ffffff;
     width: 960px;
     height: 600px;
     border: 4px;
     border-color: #dddddd;
+    margin-top: 40px;
 }
 
 .portfoliobox{
